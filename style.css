@@ -1,0 +1,18 @@
+body {
+    background-color: var(--tg-theme-bg-color); /* Uses Telegram's theme */
+    color: var(--tg-theme-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+#cookie-btn {
+    font-size: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+#cookie-btn:active { transform: scale(0.9); }
